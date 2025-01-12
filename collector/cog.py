@@ -263,6 +263,7 @@ class Collector(commands.GroupCog):
             filters["ball"] = countryball
         if user:
             filters["player__discord_id"] = user.id
+            
         entries = []
         unmetlist = []
         
